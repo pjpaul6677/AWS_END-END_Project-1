@@ -10,7 +10,7 @@ pipeline {
         stage('CLONE SCM') {
             steps {
                 echo 'cloning code from Github'
-				git branch: 'main', url: 'https://github.com/devopstraininghub/webapp1.git'
+				git branch: 'main', credentialsId: 'github-1', url: 'https://github.com/pjpaul6677/AWS_END-END_Project-1.git'
             }
         }
 		
