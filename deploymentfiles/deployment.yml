@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: paul-app
-        image: pjpaul/paul-app:14
+        image: pjpaul/paul-app:15
         ports:
         - containerPort: 8080
 
