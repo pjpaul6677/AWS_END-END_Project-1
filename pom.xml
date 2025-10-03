@@ -15,14 +15,14 @@
 	</properties>
 
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>NexusRepo</id>
-		    <url>http://100.25.155.112:8081/repository/mc-snapshot/</url>
-		 </snapshotRepository>
+		 <repository>
+		    <id>maven-releases</id>
+		    <url>http://52.15.105.8:8081/repository/maven-releases/</url>
+		 </repository>
 		
-		<repository>
-		    <id>NexusRepo</id>
-		    <url>http://ec2-3-87-3-6.compute-1.amazonaws.com:8081/repository/mc-artifacts/</url>
+		<snapshotRepository>
+		    <id>maven-snapshots</id>
+		    <url>http://52.15.105.8:8081/repository/maven-snapshots/</url>
 		</repository>
   	</distributionManagement>
 
