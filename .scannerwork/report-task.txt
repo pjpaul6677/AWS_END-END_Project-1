@@ -2,5 +2,5 @@ projectKey=paul-app
 serverUrl=http://52.15.105.8:9000
 serverVersion=25.9.0.112764
 dashboardUrl=http://52.15.105.8:9000/dashboard?id=paul-app
-ceTaskId=6bf7fb8d-17b4-4571-bb0b-577c24deb407
-ceTaskUrl=http://52.15.105.8:9000/api/ce/task?id=6bf7fb8d-17b4-4571-bb0b-577c24deb407
+ceTaskId=c468cfb2-5afb-4f83-8ab0-f85e8d11eded
+ceTaskUrl=http://52.15.105.8:9000/api/ce/task?id=c468cfb2-5afb-4f83-8ab0-f85e8d11eded
