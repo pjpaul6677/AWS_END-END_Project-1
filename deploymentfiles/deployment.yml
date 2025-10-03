@@ -2,22 +2,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mc-app
+  name: paul-app
   labels:
-    app: mc-app
+    app: paul-app
 spec:
   replicas: 4
   selector:
     matchLabels:
-      app: mc-app
+      app: paul-app
   template:
     metadata:
       labels:
-        app: mc-app
+        app: paul-app
     spec:
       containers:
-      - name: mc-app
-        image: devopshubg333/batch13:5
+      - name: paul-app
+        image: pjpaul/paul-app
         ports:
         - containerPort: 8080
 
